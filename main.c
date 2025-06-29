@@ -1,4 +1,4 @@
-// 1 a 45 FRAN    &&    47 a 83 DIEGO     &&   85 a 186 LAUTY   &&   189 a 275 ESTEBAN   &&   278 a 303 FRAN
+// 1 a 45 FRAN    &&    47 a 105 DIEGO     &&   107 a 186 LAUTY   &&   189 a 275 ESTEBAN   &&   278 a 303 FRAN
 #include <stdio.h>      // Libreria para entrada y salida (printf, scanf, etc.)
 #include <string.h>     // Libreria para manejo de strings (strcpy, strcmp, etc.)
 #include <stdlib.h>     // Libreria para funciones generales como atoi()
