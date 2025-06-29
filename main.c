@@ -1,3 +1,4 @@
+// 1 a 45 FRAN    &&    47 a 83 DIEGO     &&   85 a 186 LAUTY   &&   189 a 275 ESTEBAN   &&   278 a 303 FRAN
 #include <stdio.h>      // Libreria para entrada y salida (printf, scanf, etc.)
 #include <string.h>     // Libreria para manejo de strings (strcpy, strcmp, etc.)
 #include <stdlib.h>     // Libreria para funciones generales como atoi()
@@ -71,7 +72,7 @@ void agregar_tarea() {
 
     // Guarda la tarea en el arreglo
     tareas[cantidad_tareas++] = nueva;
-    printf("\x1b[32m¡Tarea agregada!\x1b[0m\n");
+    printf("\x1b[32mÂ¡Tarea agregada!\x1b[0m\n");
 }
 
 // Muestra solo los titulos y estados de todas las tareas
@@ -290,7 +291,7 @@ int main() {
             case 4: cambiar_estado_tarea(); break;
             case 5: editar_tarea_completa(); break;
             case 6: eliminar_tarea(); break;
-            case 7: guardar_tareas(); printf("\x1b[32m\n\n\n¡Hasta luego!\x1b[0m\n"); return 0;
+            case 7: guardar_tareas(); printf("\x1b[32m\n\n\nÂ¡Hasta luego!\x1b[0m\n"); return 0;
             default: printf("Opcion invalida.\n");
         }
 
