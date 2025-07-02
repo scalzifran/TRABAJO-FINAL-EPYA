@@ -291,7 +291,7 @@ int main() {
             case 4: cambiar_estado_tarea(); break;
             case 5: editar_tarea_completa(); break;
             case 6: eliminar_tarea(); break;
-            case 7: guardar_tareas(); printf("\x1b[32m\n\n\n¡Hasta luego!\x1b[0m\n"); return 0;
+            case 7: guardar_tareas(); printf("¡Hasta luego!); return 0;
             default: printf("Opcion invalida.\n");
         }
 
